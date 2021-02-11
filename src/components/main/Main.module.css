@@ -1,0 +1,28 @@
+.main__block{
+    width: 70%;
+    margin: 56px auto;
+
+}
+.navigation{
+    display: flex;
+}
+
+.nav{
+    padding: 8px 24px 11px 24px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.active{
+    background-color: white;
+    border-top: 2px solid #F50634;
+    font-weight: 700;
+
+}
+
+@media(max-width: 425px){
+    .nav{
+        font-size: 12px;
+    }
+}
